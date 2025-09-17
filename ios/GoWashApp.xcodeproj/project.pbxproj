@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA8E8ABF6944F85B8DA4234 /* LamaSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93625CA42CDE4D74A7641123 /* LamaSans-MediumItalic.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-GoWashApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-GoWashApp.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		15B80FB8C20A43D58AF156CD /* LamaSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E01D11CC767444EEA525D86F /* LamaSans-ExtraLight.ttf */; };
+		2B279F25FABD4FF6A1732339 /* Tajawal-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1AB08A28B3E4897A52A99BD /* Tajawal-ExtraLight.ttf */; };
+		37546DB6657B47E4932698BF /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3065E977826B487D9B081F9C /* Tajawal-Medium.ttf */; };
+		45AA0D8358C34410B28A3F2B /* Tajawal-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 331C25E4291A41CE82225B3C /* Tajawal-Light.ttf */; };
+		4C30D373463C4B77AE69E42C /* LamaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64DAD14CA82241D9B7277C2F /* LamaSans-BoldItalic.ttf */; };
+		556AA8365BFA42BCACBB0B51 /* LamaSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 154FFECF1A3145B687B48F7A /* LamaSans-SemiBoldItalic.ttf */; };
+		56B6E56424B741B6AAF3BCEB /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EE9981CCF7D4958AF3D7AB6 /* Tajawal-Regular.ttf */; };
+		599739424C06468A9D261E8C /* LamaSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 462E4563AB964AF7AA713AFB /* LamaSans-ThinItalic.ttf */; };
+		5A7CDDEB9F5A4D078FAFB187 /* LamaSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 25BE5A6EBABF40E4BFF9ED2E /* LamaSans-ExtraBold.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7B28171799494536957F62FC /* LamaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFAFA2BCAE2A4A63BCAF7EBF /* LamaSans-LightItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8AC40D429EEA28C54F352FD0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		9220AC52B5B041BCA0AE0126 /* LamaSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8D4EF731C6C4012B8942F69 /* LamaSans-Thin.ttf */; };
+		9A0F414A7C06464696D9EFF7 /* LamaSans-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 19C3727FCD8E4250BBBAF81C /* LamaSans-RegularItalic.ttf */; };
+		9EA22E19EBAB46C38422C6AE /* LamaSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 87475E8DA0D840C7A52DEB68 /* LamaSans-SemiBold.ttf */; };
+		A7A7EAB6268248FAB03F4491 /* LamaSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4F82B4CE9A94C2488A88B28 /* LamaSans-ExtraBoldItalic.ttf */; };
+		AF1E049096AE4949B532C653 /* LamaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2553FDEB2E3049F29DD0C228 /* LamaSans-Medium.ttf */; };
+		C608D2BDEB80458ABFB034BA /* LamaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53331E6712264225933D979F /* LamaSans-Light.ttf */; };
+		C63CC94632FB487CA282C1C2 /* Tajawal-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4636D6750AC045BB874AD8DA /* Tajawal-Black.ttf */; };
+		C9747F6282804CDEA785DC37 /* LamaSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0745B04027B49BAA3A37633 /* LamaSans-ExtraLightItalic.ttf */; };
+		CA89B42647B947669A61EB22 /* LamaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EFC9834264A41C7B8450A61 /* LamaSans-Regular.ttf */; };
+		D5E94EBFD851442BBA072D05 /* Tajawal-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 541E9F0BABD34E96AAAF28B3 /* Tajawal-ExtraBold.ttf */; };
+		EE42482F99E44459B3FC5F01 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6AD08F91A7E46E5B5D40FD8 /* Tajawal-Bold.ttf */; };
+		F3BD209B2439464E805696B3 /* LamaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13BFAB3630AF450FBDBBD678 /* LamaSans-Bold.ttf */; };
+		F966D58C26984819B3F5CC5F /* LamaSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5235B179B9B439CA14C5FA5 /* LamaSans-Black.ttf */; };
+		F9F5D30E3D834C7DB404D918 /* LamaSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FB8A37DDFA0429B98D3F16C /* LamaSans-BlackItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FB8A37DDFA0429B98D3F16C /* LamaSans-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-BlackItalic.ttf"; path = "../src/assets/fonts/LamaSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* GoWashApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoWashApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GoWashApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GoWashApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = GoWashApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		13BFAB3630AF450FBDBBD678 /* LamaSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-Bold.ttf"; path = "../src/assets/fonts/LamaSans-Bold.ttf"; sourceTree = "<group>"; };
+		154FFECF1A3145B687B48F7A /* LamaSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-SemiBoldItalic.ttf"; path = "../src/assets/fonts/LamaSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		19C3727FCD8E4250BBBAF81C /* LamaSans-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-RegularItalic.ttf"; path = "../src/assets/fonts/LamaSans-RegularItalic.ttf"; sourceTree = "<group>"; };
+		1EFC9834264A41C7B8450A61 /* LamaSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-Regular.ttf"; path = "../src/assets/fonts/LamaSans-Regular.ttf"; sourceTree = "<group>"; };
+		2553FDEB2E3049F29DD0C228 /* LamaSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-Medium.ttf"; path = "../src/assets/fonts/LamaSans-Medium.ttf"; sourceTree = "<group>"; };
+		25BE5A6EBABF40E4BFF9ED2E /* LamaSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-ExtraBold.ttf"; path = "../src/assets/fonts/LamaSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2EE9981CCF7D4958AF3D7AB6 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Regular.ttf"; path = "../src/assets/fonts/Tajawal-Regular.ttf"; sourceTree = "<group>"; };
+		3065E977826B487D9B081F9C /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Medium.ttf"; path = "../src/assets/fonts/Tajawal-Medium.ttf"; sourceTree = "<group>"; };
+		331C25E4291A41CE82225B3C /* Tajawal-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Light.ttf"; path = "../src/assets/fonts/Tajawal-Light.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-GoWashApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoWashApp.debug.xcconfig"; path = "Target Support Files/Pods-GoWashApp/Pods-GoWashApp.debug.xcconfig"; sourceTree = "<group>"; };
+		462E4563AB964AF7AA713AFB /* LamaSans-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-ThinItalic.ttf"; path = "../src/assets/fonts/LamaSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		4636D6750AC045BB874AD8DA /* Tajawal-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Black.ttf"; path = "../src/assets/fonts/Tajawal-Black.ttf"; sourceTree = "<group>"; };
+		53331E6712264225933D979F /* LamaSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-Light.ttf"; path = "../src/assets/fonts/LamaSans-Light.ttf"; sourceTree = "<group>"; };
+		541E9F0BABD34E96AAAF28B3 /* Tajawal-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-ExtraBold.ttf"; path = "../src/assets/fonts/Tajawal-ExtraBold.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-GoWashApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoWashApp.release.xcconfig"; path = "Target Support Files/Pods-GoWashApp/Pods-GoWashApp.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-GoWashApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GoWashApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64DAD14CA82241D9B7277C2F /* LamaSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-BoldItalic.ttf"; path = "../src/assets/fonts/LamaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = GoWashApp/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = GoWashApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87475E8DA0D840C7A52DEB68 /* LamaSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-SemiBold.ttf"; path = "../src/assets/fonts/LamaSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		93625CA42CDE4D74A7641123 /* LamaSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-MediumItalic.ttf"; path = "../src/assets/fonts/LamaSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		B0745B04027B49BAA3A37633 /* LamaSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-ExtraLightItalic.ttf"; path = "../src/assets/fonts/LamaSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		B1AB08A28B3E4897A52A99BD /* Tajawal-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-ExtraLight.ttf"; path = "../src/assets/fonts/Tajawal-ExtraLight.ttf"; sourceTree = "<group>"; };
+		C4F82B4CE9A94C2488A88B28 /* LamaSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-ExtraBoldItalic.ttf"; path = "../src/assets/fonts/LamaSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		C8D4EF731C6C4012B8942F69 /* LamaSans-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-Thin.ttf"; path = "../src/assets/fonts/LamaSans-Thin.ttf"; sourceTree = "<group>"; };
+		CFAFA2BCAE2A4A63BCAF7EBF /* LamaSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-LightItalic.ttf"; path = "../src/assets/fonts/LamaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		D5235B179B9B439CA14C5FA5 /* LamaSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-Black.ttf"; path = "../src/assets/fonts/LamaSans-Black.ttf"; sourceTree = "<group>"; };
+		D6AD08F91A7E46E5B5D40FD8 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Tajawal-Bold.ttf"; path = "../src/assets/fonts/Tajawal-Bold.ttf"; sourceTree = "<group>"; };
+		E01D11CC767444EEA525D86F /* LamaSans-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "LamaSans-ExtraLight.ttf"; path = "../src/assets/fonts/LamaSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-GoWashApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* GoWashApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = GoWashApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-GoWashApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B0B06A2DBA7498D8CD022F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4636D6750AC045BB874AD8DA /* Tajawal-Black.ttf */,
+				D6AD08F91A7E46E5B5D40FD8 /* Tajawal-Bold.ttf */,
+				541E9F0BABD34E96AAAF28B3 /* Tajawal-ExtraBold.ttf */,
+				B1AB08A28B3E4897A52A99BD /* Tajawal-ExtraLight.ttf */,
+				331C25E4291A41CE82225B3C /* Tajawal-Light.ttf */,
+				3065E977826B487D9B081F9C /* Tajawal-Medium.ttf */,
+				2EE9981CCF7D4958AF3D7AB6 /* Tajawal-Regular.ttf */,
+				D5235B179B9B439CA14C5FA5 /* LamaSans-Black.ttf */,
+				0FB8A37DDFA0429B98D3F16C /* LamaSans-BlackItalic.ttf */,
+				13BFAB3630AF450FBDBBD678 /* LamaSans-Bold.ttf */,
+				64DAD14CA82241D9B7277C2F /* LamaSans-BoldItalic.ttf */,
+				25BE5A6EBABF40E4BFF9ED2E /* LamaSans-ExtraBold.ttf */,
+				C4F82B4CE9A94C2488A88B28 /* LamaSans-ExtraBoldItalic.ttf */,
+				E01D11CC767444EEA525D86F /* LamaSans-ExtraLight.ttf */,
+				B0745B04027B49BAA3A37633 /* LamaSans-ExtraLightItalic.ttf */,
+				53331E6712264225933D979F /* LamaSans-Light.ttf */,
+				CFAFA2BCAE2A4A63BCAF7EBF /* LamaSans-LightItalic.ttf */,
+				2553FDEB2E3049F29DD0C228 /* LamaSans-Medium.ttf */,
+				93625CA42CDE4D74A7641123 /* LamaSans-MediumItalic.ttf */,
+				1EFC9834264A41C7B8450A61 /* LamaSans-Regular.ttf */,
+				19C3727FCD8E4250BBBAF81C /* LamaSans-RegularItalic.ttf */,
+				87475E8DA0D840C7A52DEB68 /* LamaSans-SemiBold.ttf */,
+				154FFECF1A3145B687B48F7A /* LamaSans-SemiBoldItalic.ttf */,
+				C8D4EF731C6C4012B8942F69 /* LamaSans-Thin.ttf */,
+				462E4563AB964AF7AA713AFB /* LamaSans-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* GoWashApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				3B0B06A2DBA7498D8CD022F3 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* GoWashApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-GoWashApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-GoWashApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* GoWashApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GoWashApp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoWashApp;
+			productName = GoWashApp;
+			productReference = 13B07F961A680F5B00A75B9A /* GoWashApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GoWashApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* GoWashApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				8AC40D429EEA28C54F352FD0 /* PrivacyInfo.xcprivacy in Resources */,
+				C63CC94632FB487CA282C1C2 /* Tajawal-Black.ttf in Resources */,
+				EE42482F99E44459B3FC5F01 /* Tajawal-Bold.ttf in Resources */,
+				D5E94EBFD851442BBA072D05 /* Tajawal-ExtraBold.ttf in Resources */,
+				2B279F25FABD4FF6A1732339 /* Tajawal-ExtraLight.ttf in Resources */,
+				45AA0D8358C34410B28A3F2B /* Tajawal-Light.ttf in Resources */,
+				37546DB6657B47E4932698BF /* Tajawal-Medium.ttf in Resources */,
+				56B6E56424B741B6AAF3BCEB /* Tajawal-Regular.ttf in Resources */,
+				F966D58C26984819B3F5CC5F /* LamaSans-Black.ttf in Resources */,
+				F9F5D30E3D834C7DB404D918 /* LamaSans-BlackItalic.ttf in Resources */,
+				F3BD209B2439464E805696B3 /* LamaSans-Bold.ttf in Resources */,
+				4C30D373463C4B77AE69E42C /* LamaSans-BoldItalic.ttf in Resources */,
+				5A7CDDEB9F5A4D078FAFB187 /* LamaSans-ExtraBold.ttf in Resources */,
+				A7A7EAB6268248FAB03F4491 /* LamaSans-ExtraBoldItalic.ttf in Resources */,
+				15B80FB8C20A43D58AF156CD /* LamaSans-ExtraLight.ttf in Resources */,
+				C9747F6282804CDEA785DC37 /* LamaSans-ExtraLightItalic.ttf in Resources */,
+				C608D2BDEB80458ABFB034BA /* LamaSans-Light.ttf in Resources */,
+				7B28171799494536957F62FC /* LamaSans-LightItalic.ttf in Resources */,
+				AF1E049096AE4949B532C653 /* LamaSans-Medium.ttf in Resources */,
+				0AA8E8ABF6944F85B8DA4234 /* LamaSans-MediumItalic.ttf in Resources */,
+				CA89B42647B947669A61EB22 /* LamaSans-Regular.ttf in Resources */,
+				9A0F414A7C06464696D9EFF7 /* LamaSans-RegularItalic.ttf in Resources */,
+				9EA22E19EBAB46C38422C6AE /* LamaSans-SemiBold.ttf in Resources */,
+				556AA8365BFA42BCACBB0B51 /* LamaSans-SemiBoldItalic.ttf in Resources */,
+				9220AC52B5B041BCA0AE0126 /* LamaSans-Thin.ttf in Resources */,
+				599739424C06468A9D261E8C /* LamaSans-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoWashApp/Pods-GoWashApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoWashApp/Pods-GoWashApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoWashApp/Pods-GoWashApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoWashApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoWashApp/Pods-GoWashApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoWashApp/Pods-GoWashApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoWashApp/Pods-GoWashApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-GoWashApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = GoWashApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GoWashApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-GoWashApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = GoWashApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = GoWashApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "GoWashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GoWashApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
